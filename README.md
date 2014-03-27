@@ -1,4 +1,4 @@
-pomelo-monitors-plugin
+pomelo-events-plugin
 ======================
 
 发送event事件给client
@@ -6,8 +6,8 @@ pomelo-monitors-plugin
 用法:
 
 server side
-```
-var eventsPlugin = require("pomelo-event-plugin");
+```javascript
+var eventsPlugin = require("pomelo-events-plugin");
 app.use(eventsPlugin);
 
 app.get("eventService").notifyClient(msg);
